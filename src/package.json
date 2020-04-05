@@ -2,7 +2,7 @@
   "name": "nuxt-ssr-firebase",
   "version": "1.0.0",
   "description": "A example repo for using nuxt with firebase hosting and cloud functions",
-  "author": "William Chong <williamchong007@msn.com>",
+  "author": "Andrea Rocca <hello@meetandrearocca.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,7 +13,17 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^2.3.4"
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/firebase": "^5.0.6",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.10.1",
+    "cookieparser": "^0.1.0",
+    "firebase": "^7.13.2",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "nuxt": "^2.12.2",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

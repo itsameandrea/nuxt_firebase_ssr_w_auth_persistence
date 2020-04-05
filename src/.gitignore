@@ -9,3 +9,6 @@ nuxt
 
 # Nuxt generate
 dist
+
+# .env
+.env
